@@ -1,5 +1,5 @@
 # disqus-proxy-serverless
-如有疑问请阅读这篇[博客](https://blog.lightina.cn/2019/12/30/hexo+netlify&serverless+disqus/)
+如有疑问请阅读这篇[博客](https://blog.lightina.cn/2019/12/30/hexo+netlify&serverless+disqus/), inspired by [szhielelp](https://github.com/szhielelp)
 
 ## 使用步骤
 1. 配置src目录下的config.js
@@ -7,11 +7,11 @@
     module.exports = {
       // 因为要部署在Serverless服务上，端口无所谓，随便填
       port: 5050, 
-      // Disqus Public Key
+      // Your Disqus Public Key
       api_key: '',
-      // Disqus Secret Key
+      // Your Disqus Secret Key
       api_secret: '',
-      // Disqus Name
+      // Your Disqus Name
       username: 'jacklightchen',
     };
     ```
@@ -49,4 +49,4 @@
       port: 443
     ```
     
-4. 大功告成
+4. 大功告成 重新部署你的hexo查看效果吧！
