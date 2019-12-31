@@ -20,18 +20,21 @@
     **重要** 另外需要到 `Settings => Community` 里开启访客评论
 
 2. 部署至Serverless平台Now
+
     tips:没有安装now 需首先安装now
     ```
     npm i -g now
     ```
-
+    然后输入以下commands
     ``` 
     git clone https://github.com/jacklightChen/disqus-proxy-serverless.git
     cd disqus-proxy-serverless
     now login 输入邮箱并验证
     now --name Disqus-Proxy
     ```
-    此时可在自己的 ZEIT 的 Dashboard 那边: https://zeit.co/dashboard 看到该服务分配的域名: disqus-proxy.1797079433.now.sh 这个域名需填在hexo的配置文件中
+    此时可在自己的 ZEIT 的 Dashboard 那边: https://zeit.co/dashboard
+
+    看到该服务分配的域名: disqus-proxy.1797079433.now.sh 这个域名需填在hexo的配置文件中
     
 3. 修改hexo的配置文件
     
