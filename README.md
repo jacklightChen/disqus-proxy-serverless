@@ -27,11 +27,19 @@
     now login 输入邮箱并验证
     now --name Disqus-Proxy
     ```
-    此时可在自己的 ZEIT 的 Dashboard 那边: https://zeit.co/dashboard 看到该服务分配的域名: disqus-proxy.1797079433.now.sh
+    此时可在自己的 ZEIT 的 Dashboard 那边: https://zeit.co/dashboard 看到该服务分配的域名: disqus-proxy.1797079433.now.sh 这个域名需填在hexo的配置文件中
     
 3. 修改hexo的配置文件
     
-    步骤跟 [disqus-proxy](https://github.com/ciqulover/disqus-proxy) 一样
+    使用 [disqus-proxy](https://github.com/ciqulover/disqus-proxy)
+    
+    3.1 在`Hexo`博客目录执行
+    ```
+    npm install hexo-disqus-proxy --save
+    ```
+    
+    3.2 在你的`Hexo`博客目录中修改`_config.yml`文件 添加如下配置：（注意缩进和空格）
+    
     配置文件需要注意port 如果用https就是443 http就是80
     ``` 
       disqus_proxy:
@@ -40,5 +48,5 @@
       host: disqus-proxy.1797079433.now.sh
       port: 443
     ```
-
+    
 4. 大功告成
