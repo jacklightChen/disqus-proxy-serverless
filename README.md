@@ -20,6 +20,10 @@
     **重要** 另外需要到 `Settings => Community` 里开启访客评论
 
 2. 部署至Serverless平台Now
+    tips:没有安装now 需首先安装now
+    ```
+    npm i -g now
+    ```
 
     ``` 
     git clone https://github.com/jacklightChen/disqus-proxy-serverless.git
