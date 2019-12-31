@@ -2,7 +2,12 @@
 如有疑问请阅读这篇[博客](https://blog.lightina.cn/2019/12/30/hexo+netlify&serverless+disqus/), inspired by [szhielelp](https://github.com/szhielelp)
 
 ## 使用步骤
-1. 配置src目录下的config.js
+1. clone代码 并配置src目录下的config.js
+    ```
+    git clone https://github.com/jacklightChen/disqus-proxy-serverless.git
+    cd disqus-proxy-serverless
+    ```
+
     ``` js
     module.exports = {
       // 因为要部署在Serverless服务上，端口无所谓，随便填
@@ -26,8 +31,7 @@
     npm i -g now
     ```
     然后输入以下commands
-    ``` 
-    git clone https://github.com/jacklightChen/disqus-proxy-serverless.git
+    ```
     cd disqus-proxy-serverless
     now login 输入邮箱并验证
     now --name Disqus-Proxy
