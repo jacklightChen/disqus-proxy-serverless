@@ -41,8 +41,8 @@
     3.2 在你的`Hexo`博客目录中修改`_config.yml`文件 添加如下配置：（注意缩进和空格）
     
     配置文件需要注意port 如果用https就是443 http就是80
-    ``` 
-      disqus_proxy:
+    ```
+    disqus_proxy:
       shortname: jacklightchen
       username: jacklightchen
       host: disqus-proxy.1797079433.now.sh
