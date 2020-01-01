@@ -40,6 +40,7 @@
 
     看到该服务分配的域名: disqus-proxy.1797079433.now.sh 这个域名需填在hexo的配置文件中
     
+    到这一步服务端就部署好了，可通过: disqus-proxy.1797079433.now.sh/api/listPosts 测试，正确的话会返回json格式的评论
 3. 修改hexo的配置文件
     
     使用 [disqus-proxy](https://github.com/ciqulover/disqus-proxy)
