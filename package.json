@@ -13,7 +13,7 @@
     "koa": "^2.7.0",
     "koa-bodyparser": "^4.2.1",
     "koa-router": "^7.4.0",
-    "log4js": "^4.1.0",
+    "log4js": "^6.4.0",
     "nodemon": "^1.18.11",
     "request": "^2.88.0",
     "request-promise-native": "^1.0.7"
